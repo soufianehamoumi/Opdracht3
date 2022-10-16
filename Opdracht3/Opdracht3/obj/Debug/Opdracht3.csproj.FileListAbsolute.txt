@@ -1,0 +1,8 @@
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\bin\Debug\Opdracht3.exe.config
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\bin\Debug\Opdracht3.exe
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\bin\Debug\Opdracht3.pdb
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\obj\Debug\Opdracht3.csproj.AssemblyReference.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\obj\Debug\Opdracht3.csproj.SuggestedBindingRedirects.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\obj\Debug\Opdracht3.csproj.CoreCompileInputs.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\obj\Debug\Opdracht3.exe
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Opdracht3\obj\Debug\Opdracht3.pdb
