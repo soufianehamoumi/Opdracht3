@@ -31,6 +31,10 @@ namespace Opdracht3
 
         }
 
+        public void StapelLeeg()
+        {
+            StapelLijst.Clear();
+        }
 
 
         public override string ToString()

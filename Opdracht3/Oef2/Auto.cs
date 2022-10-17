@@ -9,17 +9,17 @@ namespace Oef2
     internal class Auto
     {
         private string Merk { get; set; }
-        private int km { get; set; }
+        private double Km { get; set; }
 
-        public Auto(string merk, int km)
+        public Auto(string merk, double km)
         {
             Merk = merk;
-            km = km;
+            Km = km;
         }
 
         public override string ToString()
         {
-            return "Merk van de auto " + Merk + ": heeft " + km + "km";
+            return "Merk van de auto  " + Merk + ": heeft :  " + Km + "km";
         }
     }
 }

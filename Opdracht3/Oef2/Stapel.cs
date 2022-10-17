@@ -30,6 +30,10 @@ namespace Oef2
             return updatedLijst;
 
         }
+        public void StapelLeeg()
+        {
+            StapelLijst.Clear();
+        }
 
 
 

@@ -1,0 +1,11 @@
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\bin\Debug\Oef2.exe.config
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\bin\Debug\Oef2.exe
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\bin\Debug\Oef2.pdb
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.csproj.AssemblyReference.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.csproj.SuggestedBindingRedirects.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.Form1.resources
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.Properties.Resources.resources
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.csproj.GenerateResource.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.csproj.CoreCompileInputs.cache
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.exe
+C:\Users\soufiane hamoumi\OneDrive\Documenten\programmeren 2022-2023\Net_dvanced\Opdracht3\Oef2\obj\Debug\Oef2.pdb

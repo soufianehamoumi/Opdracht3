@@ -28,198 +28,216 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Toevoegen = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.StapelToe = new System.Windows.Forms.Button();
+            this.VerStapel = new System.Windows.Forms.Button();
+            this.LStapel = new System.Windows.Forms.Button();
+            this.LZStapel = new System.Windows.Forms.Button();
+            this.ZLabel = new System.Windows.Forms.Button();
+            this.CLabel = new System.Windows.Forms.Button();
+            this.ToeSoort = new System.Windows.Forms.Button();
+            this.VerSoort = new System.Windows.Forms.Button();
+            this.LeegSoort = new System.Windows.Forms.Button();
+            this.ZienSoort = new System.Windows.Forms.Button();
+            this.ZoekSoort = new System.Windows.Forms.Button();
+            this.CopySoort = new System.Windows.Forms.Button();
+            this.VoegMKM = new System.Windows.Forms.Button();
+            this.VerMKM = new System.Windows.Forms.Button();
+            this.LeegMKM = new System.Windows.Forms.Button();
+            this.ZienMKM = new System.Windows.Forms.Button();
+            this.ZoekMKM = new System.Windows.Forms.Button();
+            this.CopyMKM = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.stapelLa = new System.Windows.Forms.TextBox();
+            this.SoortLa = new System.Windows.Forms.TextBox();
+            this.MerlLa = new System.Windows.Forms.TextBox();
+            this.KMLa = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.soort = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Toevoegen
+            // StapelToe
             // 
-            this.Toevoegen.Location = new System.Drawing.Point(57, 67);
-            this.Toevoegen.Name = "Toevoegen";
-            this.Toevoegen.Size = new System.Drawing.Size(109, 33);
-            this.Toevoegen.TabIndex = 0;
-            this.Toevoegen.Text = "Toevoegen";
-            this.Toevoegen.UseVisualStyleBackColor = true;
+            this.StapelToe.Location = new System.Drawing.Point(57, 67);
+            this.StapelToe.Name = "StapelToe";
+            this.StapelToe.Size = new System.Drawing.Size(109, 33);
+            this.StapelToe.TabIndex = 0;
+            this.StapelToe.Text = "Toevoegen";
+            this.StapelToe.UseVisualStyleBackColor = true;
+            this.StapelToe.Click += new System.EventHandler(this.StapelToe_Click);
             // 
-            // button2
+            // VerStapel
             // 
-            this.button2.Location = new System.Drawing.Point(172, 69);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 31);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Verwijderen";
-            this.button2.UseVisualStyleBackColor = true;
+            this.VerStapel.Location = new System.Drawing.Point(172, 69);
+            this.VerStapel.Name = "VerStapel";
+            this.VerStapel.Size = new System.Drawing.Size(109, 31);
+            this.VerStapel.TabIndex = 1;
+            this.VerStapel.Text = "Verwijderen";
+            this.VerStapel.UseVisualStyleBackColor = true;
+            this.VerStapel.Click += new System.EventHandler(this.VerStapel_Click);
             // 
-            // button3
+            // LStapel
             // 
-            this.button3.Location = new System.Drawing.Point(287, 69);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 31);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Leegmaken";
-            this.button3.UseVisualStyleBackColor = true;
+            this.LStapel.Location = new System.Drawing.Point(287, 69);
+            this.LStapel.Name = "LStapel";
+            this.LStapel.Size = new System.Drawing.Size(109, 31);
+            this.LStapel.TabIndex = 2;
+            this.LStapel.Text = "Leegmaken";
+            this.LStapel.UseVisualStyleBackColor = true;
+            this.LStapel.Click += new System.EventHandler(this.LStapel_Click);
             // 
-            // button4
+            // LZStapel
             // 
-            this.button4.Location = new System.Drawing.Point(402, 69);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(109, 31);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Laat zien ";
-            this.button4.UseVisualStyleBackColor = true;
+            this.LZStapel.Location = new System.Drawing.Point(402, 69);
+            this.LZStapel.Name = "LZStapel";
+            this.LZStapel.Size = new System.Drawing.Size(109, 31);
+            this.LZStapel.TabIndex = 3;
+            this.LZStapel.Text = "Laat zien ";
+            this.LZStapel.UseVisualStyleBackColor = true;
+            this.LZStapel.Click += new System.EventHandler(this.LZStapel_Click);
             // 
-            // button5
+            // ZLabel
             // 
-            this.button5.Location = new System.Drawing.Point(517, 69);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 31);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "zoek";
-            this.button5.UseVisualStyleBackColor = true;
+            this.ZLabel.Location = new System.Drawing.Point(517, 69);
+            this.ZLabel.Name = "ZLabel";
+            this.ZLabel.Size = new System.Drawing.Size(109, 31);
+            this.ZLabel.TabIndex = 4;
+            this.ZLabel.Text = "zoek";
+            this.ZLabel.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // CLabel
             // 
-            this.button6.Location = new System.Drawing.Point(632, 69);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(109, 31);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Copy";
-            this.button6.UseVisualStyleBackColor = true;
+            this.CLabel.Location = new System.Drawing.Point(632, 69);
+            this.CLabel.Name = "CLabel";
+            this.CLabel.Size = new System.Drawing.Size(109, 31);
+            this.CLabel.TabIndex = 5;
+            this.CLabel.Text = "Copy";
+            this.CLabel.UseVisualStyleBackColor = true;
+            this.CLabel.Click += new System.EventHandler(this.CLabel_Click);
             // 
-            // button7
+            // ToeSoort
             // 
-            this.button7.Location = new System.Drawing.Point(57, 185);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(109, 31);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Toevoegen";
-            this.button7.UseVisualStyleBackColor = true;
+            this.ToeSoort.Location = new System.Drawing.Point(57, 185);
+            this.ToeSoort.Name = "ToeSoort";
+            this.ToeSoort.Size = new System.Drawing.Size(109, 31);
+            this.ToeSoort.TabIndex = 6;
+            this.ToeSoort.Text = "Toevoegen";
+            this.ToeSoort.UseVisualStyleBackColor = true;
+            this.ToeSoort.Click += new System.EventHandler(this.ToeSoort_Click);
             // 
-            // button8
+            // VerSoort
             // 
-            this.button8.Location = new System.Drawing.Point(172, 185);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(109, 31);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Verwijderen";
-            this.button8.UseVisualStyleBackColor = true;
+            this.VerSoort.Location = new System.Drawing.Point(172, 185);
+            this.VerSoort.Name = "VerSoort";
+            this.VerSoort.Size = new System.Drawing.Size(109, 31);
+            this.VerSoort.TabIndex = 7;
+            this.VerSoort.Text = "Verwijderen";
+            this.VerSoort.UseVisualStyleBackColor = true;
+            this.VerSoort.Click += new System.EventHandler(this.VerSoort_Click);
             // 
-            // button9
+            // LeegSoort
             // 
-            this.button9.Location = new System.Drawing.Point(287, 185);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(109, 31);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Leegmaken";
-            this.button9.UseVisualStyleBackColor = true;
+            this.LeegSoort.Location = new System.Drawing.Point(287, 185);
+            this.LeegSoort.Name = "LeegSoort";
+            this.LeegSoort.Size = new System.Drawing.Size(109, 31);
+            this.LeegSoort.TabIndex = 8;
+            this.LeegSoort.Text = "Leegmaken";
+            this.LeegSoort.UseVisualStyleBackColor = true;
+            this.LeegSoort.Click += new System.EventHandler(this.LeegSoort_Click);
             // 
-            // button10
+            // ZienSoort
             // 
-            this.button10.Location = new System.Drawing.Point(402, 185);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(109, 31);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Laat zien ";
-            this.button10.UseVisualStyleBackColor = true;
+            this.ZienSoort.Location = new System.Drawing.Point(402, 185);
+            this.ZienSoort.Name = "ZienSoort";
+            this.ZienSoort.Size = new System.Drawing.Size(109, 31);
+            this.ZienSoort.TabIndex = 9;
+            this.ZienSoort.Text = "Laat zien ";
+            this.ZienSoort.UseVisualStyleBackColor = true;
+            this.ZienSoort.Click += new System.EventHandler(this.ZienSoort_Click);
             // 
-            // button11
+            // ZoekSoort
             // 
-            this.button11.Location = new System.Drawing.Point(517, 185);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(109, 31);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "zoek";
-            this.button11.UseVisualStyleBackColor = true;
+            this.ZoekSoort.Location = new System.Drawing.Point(517, 185);
+            this.ZoekSoort.Name = "ZoekSoort";
+            this.ZoekSoort.Size = new System.Drawing.Size(109, 31);
+            this.ZoekSoort.TabIndex = 10;
+            this.ZoekSoort.Text = "zoek";
+            this.ZoekSoort.UseVisualStyleBackColor = true;
+            this.ZoekSoort.Click += new System.EventHandler(this.ZoekSoort_Click);
             // 
-            // button12
+            // CopySoort
             // 
-            this.button12.Location = new System.Drawing.Point(632, 185);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(109, 31);
-            this.button12.TabIndex = 11;
-            this.button12.Text = "Copy";
-            this.button12.UseVisualStyleBackColor = true;
+            this.CopySoort.Location = new System.Drawing.Point(632, 185);
+            this.CopySoort.Name = "CopySoort";
+            this.CopySoort.Size = new System.Drawing.Size(109, 31);
+            this.CopySoort.TabIndex = 11;
+            this.CopySoort.Text = "Copy";
+            this.CopySoort.UseVisualStyleBackColor = true;
+            this.CopySoort.Click += new System.EventHandler(this.CopySoort_Click);
             // 
-            // button13
+            // VoegMKM
             // 
-            this.button13.Location = new System.Drawing.Point(57, 288);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(109, 31);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "Toevoegen";
-            this.button13.UseVisualStyleBackColor = true;
+            this.VoegMKM.Location = new System.Drawing.Point(57, 288);
+            this.VoegMKM.Name = "VoegMKM";
+            this.VoegMKM.Size = new System.Drawing.Size(109, 31);
+            this.VoegMKM.TabIndex = 12;
+            this.VoegMKM.Text = "Toevoegen";
+            this.VoegMKM.UseVisualStyleBackColor = true;
+            this.VoegMKM.Click += new System.EventHandler(this.VoegMKM_Click);
             // 
-            // button14
+            // VerMKM
             // 
-            this.button14.Location = new System.Drawing.Point(172, 288);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(109, 31);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "Verwijderen";
-            this.button14.UseVisualStyleBackColor = true;
+            this.VerMKM.Location = new System.Drawing.Point(172, 288);
+            this.VerMKM.Name = "VerMKM";
+            this.VerMKM.Size = new System.Drawing.Size(109, 31);
+            this.VerMKM.TabIndex = 13;
+            this.VerMKM.Text = "Verwijderen";
+            this.VerMKM.UseVisualStyleBackColor = true;
+            this.VerMKM.Click += new System.EventHandler(this.VerMKM_Click);
             // 
-            // button15
+            // LeegMKM
             // 
-            this.button15.Location = new System.Drawing.Point(287, 288);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(109, 31);
-            this.button15.TabIndex = 14;
-            this.button15.Text = "Leegmaken";
-            this.button15.UseVisualStyleBackColor = true;
+            this.LeegMKM.Location = new System.Drawing.Point(287, 288);
+            this.LeegMKM.Name = "LeegMKM";
+            this.LeegMKM.Size = new System.Drawing.Size(109, 31);
+            this.LeegMKM.TabIndex = 14;
+            this.LeegMKM.Text = "Leegmaken";
+            this.LeegMKM.UseVisualStyleBackColor = true;
+            this.LeegMKM.Click += new System.EventHandler(this.LeegMKM_Click);
             // 
-            // button16
+            // ZienMKM
             // 
-            this.button16.Location = new System.Drawing.Point(402, 288);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(109, 31);
-            this.button16.TabIndex = 15;
-            this.button16.Text = "Laat zien ";
-            this.button16.UseVisualStyleBackColor = true;
+            this.ZienMKM.Location = new System.Drawing.Point(402, 288);
+            this.ZienMKM.Name = "ZienMKM";
+            this.ZienMKM.Size = new System.Drawing.Size(109, 31);
+            this.ZienMKM.TabIndex = 15;
+            this.ZienMKM.Text = "Laat zien ";
+            this.ZienMKM.UseVisualStyleBackColor = true;
+            this.ZienMKM.Click += new System.EventHandler(this.ZienMKM_Click);
             // 
-            // button17
+            // ZoekMKM
             // 
-            this.button17.Location = new System.Drawing.Point(517, 288);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(109, 31);
-            this.button17.TabIndex = 16;
-            this.button17.Text = "zoek";
-            this.button17.UseVisualStyleBackColor = true;
+            this.ZoekMKM.Location = new System.Drawing.Point(517, 288);
+            this.ZoekMKM.Name = "ZoekMKM";
+            this.ZoekMKM.Size = new System.Drawing.Size(109, 31);
+            this.ZoekMKM.TabIndex = 16;
+            this.ZoekMKM.Text = "zoek";
+            this.ZoekMKM.UseVisualStyleBackColor = true;
+            this.ZoekMKM.Click += new System.EventHandler(this.ZoekMKM_Click);
             // 
-            // button18
+            // CopyMKM
             // 
-            this.button18.Location = new System.Drawing.Point(632, 288);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(109, 31);
-            this.button18.TabIndex = 17;
-            this.button18.Text = "Copy";
-            this.button18.UseVisualStyleBackColor = true;
+            this.CopyMKM.Location = new System.Drawing.Point(632, 288);
+            this.CopyMKM.Name = "CopyMKM";
+            this.CopyMKM.Size = new System.Drawing.Size(109, 31);
+            this.CopyMKM.TabIndex = 17;
+            this.CopyMKM.Text = "Copy";
+            this.CopyMKM.UseVisualStyleBackColor = true;
+            this.CopyMKM.Click += new System.EventHandler(this.CopyMKM_Click);
             // 
             // label1
             // 
@@ -248,33 +266,33 @@
             this.label3.TabIndex = 21;
             this.label3.Text = "Merk";
             // 
-            // textBox1
+            // stapelLa
             // 
-            this.textBox1.Location = new System.Drawing.Point(57, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(109, 22);
-            this.textBox1.TabIndex = 22;
+            this.stapelLa.Location = new System.Drawing.Point(57, 39);
+            this.stapelLa.Name = "stapelLa";
+            this.stapelLa.Size = new System.Drawing.Size(109, 22);
+            this.stapelLa.TabIndex = 22;
             // 
-            // textBox2
+            // SoortLa
             // 
-            this.textBox2.Location = new System.Drawing.Point(57, 157);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(109, 22);
-            this.textBox2.TabIndex = 23;
+            this.SoortLa.Location = new System.Drawing.Point(57, 157);
+            this.SoortLa.Name = "SoortLa";
+            this.SoortLa.Size = new System.Drawing.Size(109, 22);
+            this.SoortLa.TabIndex = 23;
             // 
-            // textBox3
+            // MerlLa
             // 
-            this.textBox3.Location = new System.Drawing.Point(57, 260);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(109, 22);
-            this.textBox3.TabIndex = 24;
+            this.MerlLa.Location = new System.Drawing.Point(57, 260);
+            this.MerlLa.Name = "MerlLa";
+            this.MerlLa.Size = new System.Drawing.Size(109, 22);
+            this.MerlLa.TabIndex = 24;
             // 
-            // textBox4
+            // KMLa
             // 
-            this.textBox4.Location = new System.Drawing.Point(172, 260);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(109, 22);
-            this.textBox4.TabIndex = 25;
+            this.KMLa.Location = new System.Drawing.Point(172, 260);
+            this.KMLa.Name = "KMLa";
+            this.KMLa.Size = new System.Drawing.Size(109, 22);
+            this.KMLa.TabIndex = 25;
             // 
             // label4
             // 
@@ -294,14 +312,14 @@
             this.label5.TabIndex = 27;
             this.label5.Text = "Lijst :";
             // 
-            // label6
+            // soort
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(66, 384);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 16);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Soort : ";
+            this.soort.AutoSize = true;
+            this.soort.Location = new System.Drawing.Point(66, 384);
+            this.soort.Name = "soort";
+            this.soort.Size = new System.Drawing.Size(48, 16);
+            this.soort.TabIndex = 28;
+            this.soort.Text = "Soort : ";
             // 
             // label7
             // 
@@ -312,40 +330,50 @@
             this.label7.TabIndex = 29;
             this.label7.Text = "Merk :";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(436, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 16);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "label6";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.soort);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.KMLa);
+            this.Controls.Add(this.MerlLa);
+            this.Controls.Add(this.SoortLa);
+            this.Controls.Add(this.stapelLa);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.Toevoegen);
+            this.Controls.Add(this.CopyMKM);
+            this.Controls.Add(this.ZoekMKM);
+            this.Controls.Add(this.ZienMKM);
+            this.Controls.Add(this.LeegMKM);
+            this.Controls.Add(this.VerMKM);
+            this.Controls.Add(this.VoegMKM);
+            this.Controls.Add(this.CopySoort);
+            this.Controls.Add(this.ZoekSoort);
+            this.Controls.Add(this.ZienSoort);
+            this.Controls.Add(this.LeegSoort);
+            this.Controls.Add(this.VerSoort);
+            this.Controls.Add(this.ToeSoort);
+            this.Controls.Add(this.CLabel);
+            this.Controls.Add(this.ZLabel);
+            this.Controls.Add(this.LZStapel);
+            this.Controls.Add(this.LStapel);
+            this.Controls.Add(this.VerStapel);
+            this.Controls.Add(this.StapelToe);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -355,35 +383,36 @@
 
         #endregion
 
-        private System.Windows.Forms.Button Toevoegen;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button StapelToe;
+        private System.Windows.Forms.Button VerStapel;
+        private System.Windows.Forms.Button LStapel;
+        private System.Windows.Forms.Button LZStapel;
+        private System.Windows.Forms.Button ZLabel;
+        private System.Windows.Forms.Button CLabel;
+        private System.Windows.Forms.Button ToeSoort;
+        private System.Windows.Forms.Button VerSoort;
+        private System.Windows.Forms.Button LeegSoort;
+        private System.Windows.Forms.Button ZienSoort;
+        private System.Windows.Forms.Button ZoekSoort;
+        private System.Windows.Forms.Button CopySoort;
+        private System.Windows.Forms.Button VoegMKM;
+        private System.Windows.Forms.Button VerMKM;
+        private System.Windows.Forms.Button LeegMKM;
+        private System.Windows.Forms.Button ZienMKM;
+        private System.Windows.Forms.Button ZoekMKM;
+        private System.Windows.Forms.Button CopyMKM;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox stapelLa;
+        private System.Windows.Forms.TextBox SoortLa;
+        private System.Windows.Forms.TextBox MerlLa;
+        private System.Windows.Forms.TextBox KMLa;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label soort;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
     }
 }
 
